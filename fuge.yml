@@ -1,0 +1,19 @@
+fuge_global:
+  tail: true
+  monitor: false
+  monitor_excludes:
+    - '**/node_modules/**'
+    - '**/.git/**'
+    - '*.log'
+math:
+  type: process
+  path: .
+  run: 'node ./services/math.service.js'
+caller:
+  type: process
+  path: .
+  run: 'node ./services/math-caller.service.js'
+wrap:
+  type: process
+  path: .
+  run: 'node ./services/wrap.service.js'

@@ -1,0 +1,29 @@
+{
+  "name": "seneca-wrap-test",
+  "version": "1.0.0",
+  "description": "Test wrap on multiple services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fuge shell fuge.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davd33/seneca-wrap-test.git"
+  },
+  "keywords": [
+    "wrap",
+    "seneca"
+  ],
+  "author": "David Rueda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davd33/seneca-wrap-test/issues"
+  },
+  "homepage": "https://github.com/davd33/seneca-wrap-test#readme",
+  "dependencies": {
+    "seneca": "^3.4.3",
+    "seneca-balance-client": "^0.6.1",
+    "seneca-mesh": "^0.11.0"
+  }
+}
